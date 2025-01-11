@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*===///
+    font-family: "Fira Sans", serif;
+     font-weight: 100;
+     font-style: normal;
+////===*/
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: #F5F5F5;
+}
+.header{
+    width: 1600px;
+    margin: 0 auto;
+}
+/*==///--Manu Style--///==*/
+.header .logo .head-logo{
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.header nav{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header .head-btn .btn1{
+    width: 116px;
+    height: 52px;
+    border: 1px solid #006A50;
+    border-radius: 5px;
+}
+.header .head-btn .btn1:hover{
+    background-color:rgb(233, 230, 230) ;
+}
+.header .head-btn a{
+    text-decoration: none;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*==///--Banner section style--///==*/
+.header .header-banner{
+    background-color: #C6E4D6;
+    height: 350px;
+    padding: 100px;
+}
+.header-banner .banner-info{
+    width: 622px;
+}
+.header .header-banner .banner-title{
+    font-family: "Fira Sans", serif;
+    font-size:24px;
+    font-weight: 500;
+    color: #0E0E0E80;
+    margin-bottom:16px ;
+}
+.header .header-banner .banner-discription{
+    font-family: "Fira Sans", serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.header-banner .banner-info .banner-btn{}
+.header-banner .banner-info .banner-btn .btn2{
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 5px;
+}
+.header-banner .banner-info .banner-btn a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+.banner-img .indipendent-img{
+    position: relative;
+}
+.banner-img .indipendent-img img{
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 60%;
+}
