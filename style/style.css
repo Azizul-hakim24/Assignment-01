@@ -22,7 +22,6 @@ body{
 }
 /*==///--Manu Style--///==*/
 .header .logo .head-logo{
-    font-family: "Fira Sans", serif;
     font-size: 32px;
     font-weight: 700;
     color: #0E0E0E;
@@ -58,20 +57,17 @@ body{
     width: 622px;
 }
 .header .header-banner .banner-title{
-    font-family: "Fira Sans", serif;
     font-size:24px;
     font-weight: 500;
     color: #0E0E0E80;
     margin-bottom:16px ;
 }
 .header .header-banner .banner-discription{
-    font-family: "Fira Sans", serif;
     font-size: 56px;
     font-weight: 700;
     color: #0E0E0E;
     margin-bottom: 24px;
 }
-.header-banner .banner-info .banner-btn{}
 .header-banner .banner-info .banner-btn .btn2{
     width: 270px;
     height: 56px;
@@ -107,7 +103,6 @@ body{
     margin: 80px 0px;
 }
 .Pillars-Bangladesh-content .pillars-info .pillars-title{
-    font-family: "Fira Sans", serif;
     font-size: 40px;
     font-weight: bold; 
     color: #0E0E0E;
@@ -117,7 +112,6 @@ body{
     margin-bottom: 24px;
 }
 .pillars-box .img-title{
-    font-family: "Fira Sans", serif;
     font-size: 20px;
     font-weight: bold;
     color: #0E0E0E;
@@ -131,7 +125,6 @@ body{
     border: 1px solid #DBDBDB;
 }
 .pillars-box .img-discription{
-    font-family: "Fira Sans", serif;
     font-size: 16px;
     color: #0E0E0E;
     width: 254px;
@@ -147,16 +140,13 @@ body{
     margin-top: 80px;
     margin-bottom: 32px;
 }
-.vision-info{}
 .vision-info .vision-title{
-    font-family: "Fira Sans", serif;
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
     margin-bottom: 24px;
 }
 .vision-info .vision-discription{
-    font-family: "Fira Sans", serif;
     font-size: 16px;
     color: #0E0E0E;
     margin-bottom:32px;
@@ -173,7 +163,6 @@ body{
     padding: 32px;
     border-radius: 10px;
 }
-
 .vision-box .vision-img{
     margin-bottom: 24px;
 }
@@ -273,4 +262,74 @@ body{
 }
 .que-left{
     text-align: left;
+}
+/*===////---Recent News style-----////==*/
+.Recent-News{
+    margin-bottom: 80px;
+}
+.new-info .news-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.new-info .news-discription{
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+.news-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 48px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+.news-box .news-img img{
+    width: 408px;
+    height: 306px;
+    border-radius: 20px;
+}
+.news-img-info .img-news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom:12px;
+}
+.news-img-info .news-logo img{
+    margin-bottom: 12px;
+}
+.news-img-info .news-date{
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #0E0E0E;
+}
+.news-img-info .img-news-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    line-height:24px;
+    margin-bottom:32px;
+}
+.news-img-info .news-btn .news-btn4{
+    width: 140px;
+    height: 48px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+.news-img-info .news-btn .news-btn4:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.news-img-info .news-btn .news-btn4 a{
+    text-decoration: none;
+    font-weight: 18px;
+    color: #FFFFFF;
+    font-weight:bold;
 }
