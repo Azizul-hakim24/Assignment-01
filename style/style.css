@@ -27,7 +27,7 @@ body{
 .header .logo .head-logo{
     font-size: 32px;
     font-weight: 700;
-    color: #0E0E0E;
+    color: rgb(243 2 0);
 }
 .header nav{
     margin: 30px auto;
@@ -107,9 +107,9 @@ body{
 }
 .Pillars-Bangladesh-content .pillars-info .pillars-title{
     font-size: 40px;
-    font-weight: bold; 
-    color: #0E0E0E;
-    margin-bottom:32px ;
+    font-weight: bold;
+    color: rgb(207 143 0);
+    margin-bottom: 32px;
 }
 .pillars-box .plillar-img{
     margin-bottom: 24px;
@@ -146,7 +146,7 @@ body{
 .vision-info .vision-title{
     font-size: 40px;
     font-weight: bold;
-    color: #0E0E0E;
+    color: #09a15c;
     margin-bottom: 24px;
 }
 .vision-info .vision-discription{
@@ -182,19 +182,73 @@ body{
     margin-bottom: 24px;
     line-height: 24px;
 }
-.vision-box .vision-btn3{
+.vision-box .vision1-btn3{
     width: 122px;
     height: 41px;
     background-color: #5490F5;
     border: none;
     border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
 }
-.vision-box .vision-btn3 a{
+.vision-box .vision1-btn3:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.vision-box .vision1-btn3 a{
     text-decoration: none;
     font-size: 16px;
     color: #FFFFFF;
 }
-/*=====///--Vision-Future Style--///=======*/
+.vision-box .vision2-btn3{
+    width: 122px;
+    height: 41px;
+    background-color: #09A15C;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(230, 25, 25, 0.1);
+    transition: all 0.3s ease 0s;
+}
+.vision-box .vision2-btn3:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.vision-box .vision2-btn3 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.vision-box .vision3-btn3{
+    width: 122px;
+    height: 41px;
+    background-color: #FFC239;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(230, 25, 25, 0.1);
+    transition: all 0.3s ease 0s;
+}
+.vision-box .vision3-btn3:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.vision-box .vision3-btn3 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.vision-box-wrap .v-box-color2{
+    background-color:#C6E4D6;
+}
+.vision-box-wrap .v-box-color3{
+    background-color:#F7EBCF;
+}
+/*=====///--Yunus About Style--///=======*/
 .yunus-about-content{
     padding: 48px 24px;
     margin-bottom: 80px;
@@ -219,6 +273,7 @@ body{
     font-size: 16px;
     color: #0E0E0E;
 }
+
 /*==///-----Opinion Matters style-----///==*/
 .Opinion-Matters{
     margin: 80px 0px;
@@ -273,7 +328,7 @@ body{
 .new-info .news-title{
     font-size: 40px;
     font-weight: bold;
-    color: #0E0E0E;
+    color: #006a50;
     margin-bottom: 24px;
 }
 .new-info .news-discription{
@@ -349,8 +404,8 @@ body{
 .donate-info .donate-title{
     font-size: 40px;
     font-weight: bold;
-    color: #0E0E0E;
-    margin-bottom:24px;
+    color: #ff0000;
+    margin-bottom: 24px;
 }
 .donate-info .donate-discription{
     font-size: 16px;
@@ -498,6 +553,7 @@ body{
     align-items: center;
     padding-bottom: 32px;
     font-weight: bold;
+    color: red;
 }
 .footer-social{
     display: flex;
