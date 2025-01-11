@@ -12,8 +12,12 @@ body{
     background-color: #F5F5F5;
 }
 .header{
-    width: 1600px;
+    width: 1280px;
     margin: 0 auto;
+}
+.main{
+    width: 1280px;
+    margin: 0px auto;
 }
 /*==///--Manu Style--///==*/
 .header .logo .head-logo{
@@ -47,6 +51,7 @@ body{
     background-color: #C6E4D6;
     height: 350px;
     padding: 100px;
+    border-radius: 10px;
 }
 .header-banner .banner-info{
     width: 622px;
@@ -71,7 +76,15 @@ body{
     height: 56px;
     background-color: #006A50;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgb(53 130 95 / 57%);
+    transition: all 0.3s ease 0s;
+}
+.header-banner .banner-info .banner-btn .btn2:hover{
+    background-color: #f30200;
+    box-shadow: 0px 15px 20px rgb(243 2 0 / 28%);
+    color: #fff;
+    transform: translateY(-7px);
 }
 .header-banner .banner-info .banner-btn a{
     text-decoration: none;
@@ -85,6 +98,46 @@ body{
 }
 .banner-img .indipendent-img img{
     position: absolute;
-    margin-top: -25%;
+    margin-top: -33%;
     margin-left: 60%;
+}
+/*==///--Pillars of Bangladesh style---///==*/
+.Pillars-Bangladesh{
+    margin: 80px 0px;
+}
+.Pillars-Bangladesh-content .pillars-info .pillars-title{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: bold; 
+    color: #0E0E0E;
+    margin-bottom:32px ;
+}
+.pillars-box .plillar-img{
+    margin-bottom: 24px;
+}
+.pillars-box .img-title{
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+.pillars-box{
+    width: 302px;
+    padding: 24px 24px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #DBDBDB;
+}
+.pillars-box .img-discription{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: #0E0E0E;
+    width: 254px;
+}
+.plillar-box-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
 }
