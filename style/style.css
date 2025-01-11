@@ -212,11 +212,6 @@ body{
     background-repeat: no-repeat;
     background-position: 2% 11%;
 }
-/* .Yunus-About{
-    background: url(../images/quote-bg.png);
-    background-repeat: no-repeat;
-    background-position: 2% 13%;
-} */
 .yunus-info .about-discrption{
     font-size: 16px;
     color: #0E0E0E;
@@ -231,4 +226,51 @@ body{
 .yunus-info .yunus-position{
     font-size: 16px;
     color: #0E0E0E;
+}
+/*==///-----Opinion Matters style-----///==*/
+.Opinion-Matters{
+    margin: 80px 0px;
+}
+.opinion-matters-content .opinion-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom:24px;
+}
+.opinion-table{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 32px;
+}
+.opinion-table .from-text{
+    font-size: 16px;
+}
+.opinion-table .form-btn .select{
+    border: none;
+    padding: 15px 5px;
+    background-color: #C6E4D6;
+    border-radius: 5px;
+}
+.opinion-table .form-btn{
+    border-radius: 8px;
+}
+.opinion-table .table-head-color{
+    background-color: #C6E4D6;
+}
+.opinion-table table{
+    width: 1216px;
+    margin: 0 auto;
+
+}
+.opinion-table table,th{
+    border-collapse: collapse;
+    padding: 30px 20px;
+}
+.opinion-table table,tr,td{
+    border: 1px solid #DBDBDB;
+    border-collapse: collapse;
+    padding: 30px 20px;
+}
+.que-left{
+    text-align: left;
 }
