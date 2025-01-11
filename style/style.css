@@ -202,3 +202,33 @@ body{
     font-size: 16px;
     color: #FFFFFF;
 }
+/*=====///--Vision-Future Style--///=======*/
+.yunus-about-content{
+    padding: 48px 24px;
+    margin-bottom: 80px;
+    border: 1px solid #DBDBDB;
+    border-radius: 10px;
+    background: url("../images/quote-bg.png"),#FFFFFF;
+    background-repeat: no-repeat;
+    background-position: 2% 11%;
+}
+/* .Yunus-About{
+    background: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 2% 13%;
+} */
+.yunus-info .about-discrption{
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-bottom:12px;
+    line-height: 24px;
+}
+.yunus-info .yunus-title{
+    font-size: 20px;
+    color: #0E0E0E;
+    margin-bottom: 5px;
+}
+.yunus-info .yunus-position{
+    font-size: 16px;
+    color: #0E0E0E;
+}
