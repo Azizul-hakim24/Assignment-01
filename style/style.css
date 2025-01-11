@@ -10,6 +10,7 @@
 }
 body{
     background-color: #F5F5F5;
+    font-family: "Fira Sans", serif;
 }
 .header{
     width: 1280px;
@@ -140,4 +141,64 @@ body{
     justify-content: space-around;
     align-items: center;
     gap: 24px;
+}
+/*====////--Vision-Future style--/////====*/
+.Vision-Future{
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+.vision-info{}
+.vision-info .vision-title{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.vision-info .vision-discription{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-bottom:32px;
+}
+.vision-box-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+.vision-box-wrap .vision-box{
+    width: 410px;
+    background: #D5E1F5;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.vision-box .vision-img{
+    margin-bottom: 24px;
+}
+.vision-box .v-img-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom:12px;
+}
+.vision-box .v-img-discription{
+    width: 346px;
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+    line-height: 24px;
+}
+.vision-box .vision-btn3{
+    width: 122px;
+    height: 41px;
+    background-color: #5490F5;
+    border: none;
+    border-radius: 10px;
+}
+.vision-box .vision-btn3 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
 }
