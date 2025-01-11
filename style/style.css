@@ -39,9 +39,10 @@ body{
     height: 52px;
     border: 1px solid #006A50;
     border-radius: 5px;
+    transition: all 0.5s ease;
 }
 .header .head-btn .btn1:hover{
-    background-color:rgb(233, 230, 230) ;
+    background-color:rgb(252, 249, 249) ;
 }
 .header .head-btn a{
     text-decoration: none;
@@ -126,6 +127,10 @@ body{
     background-color: #FFFFFF;
     border-radius: 10px;
     border: 1px solid #DBDBDB;
+    transition: all 0.5s ease;
+}
+.plillar-box-wrap .pillars-box:hover{
+    background-color: rgba(150, 182, 34, 0.144);
 }
 .pillars-box .img-discription{
     font-size: 16px;
@@ -208,7 +213,7 @@ body{
     background-color: #09A15C;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 8px 15px rgba(230, 25, 25, 0.1);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
 }
 .vision-box .vision2-btn3:hover{
@@ -228,7 +233,7 @@ body{
     background-color: #FFC239;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 8px 15px rgba(230, 25, 25, 0.1);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
 }
 .vision-box .vision3-btn3:hover{
@@ -296,10 +301,11 @@ body{
     border: none;
     padding: 15px 5px;
     background-color: #C6E4D6;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 .opinion-table .form-btn{
     border-radius: 8px;
+    border: 1px solid #000000cf;
 }
 .opinion-table .table-head-color{
     background-color: #C6E4D6;
@@ -335,6 +341,7 @@ body{
     font-size: 16px;
     color: #0E0E0E;
     margin-bottom: 32px;
+    line-height: 24px;
 }
 .news-box{
     display: flex;
@@ -433,6 +440,9 @@ body{
 .donate-btn .donate-btn5:hover{
     background-color: #C6E4D6;
 }
+.donate-btn .active{
+    background-color: #C6E4D6;
+}
 .donate-btn .donate-btn5 a{
     text-decoration: none;
     font-size: 40px;
@@ -452,6 +462,7 @@ body{
     border: none;
     border-bottom: 1px solid #DBDBDB;
     margin-bottom: 32px;
+    border-radius: 5px;
 }
 .form-btn6 .f-btn6{
     width: 151px;
@@ -486,6 +497,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+    border-radius: 10px;
 }
 .subcribe-content{
     width: 750px;
